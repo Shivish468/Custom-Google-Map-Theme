@@ -2,8 +2,8 @@ function initMap() {
 	// Update MAP_ID with custom map ID
 	map = new google.maps.Map(document.getElementById('map'), {
 		center: {
-			lat: 34.66767774804736,
-			lng: 135.43076145097373,
+			lat: 28.475728,
+			lng: 77.502949,
 		},
 		zoom: 18,
 		mapId: 'MAP_ID',
@@ -18,10 +18,10 @@ function initMap() {
 	// scaledSize width, height
 	const markers = [
 		[
-			"Yoshi's House",
-			34.66669734177897,
-			135.4309054875526,
-			'yoshi_house.svg',
+			"My College",
+			28.463097,
+			77.490679,
+			'My_College.svg',
 			38,
 			31,
 		],
